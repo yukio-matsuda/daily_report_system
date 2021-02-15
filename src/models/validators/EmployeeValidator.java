@@ -61,7 +61,7 @@ public class EmployeeValidator {
  // パスワードの必須入力チェック
     private static String validatePassword(String password, Boolean passwordCheckFlag) {
         if(passwordCheckFlag && (password == null || password.equals(""))) {
-            return "パスワードを入力して下さい。";
+            return "パスワードを入力してください。";
         }
         return "";
     }
